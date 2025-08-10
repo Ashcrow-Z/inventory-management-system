@@ -1,0 +1,10 @@
+crewai
+langchain
+langchain-community
+openai
+python-dotenv
+pandas
+numpy
+tiktoken  # 可选但推荐
+matplotlib
+seaborn
