@@ -6,7 +6,7 @@ try:
     llm = ChatOpenAI(
         model_name="deepseek-chat",
         openai_api_base="https://api.deepseek.com/v1",
-        openai_api_key="sk-347829a837834d60bff6486288ac731e",  # 👈 替换成你的真实API Key
+        openai_api_key="xxxxx",  # 👈 替换成你的真实API Key
         max_tokens=200,
         temperature=0.7
     )
