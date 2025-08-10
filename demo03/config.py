@@ -9,7 +9,7 @@ import os
 MODEL_CONFIG = {
     "model_name": "moonshot-v1-8k",
     "openai_api_base": "https://api.moonshot.cn/v1",
-    "openai_api_key": "sk-iw52Xktj1kqdKIICxd5tX6WQBYtW94yznBRy37RodQET03Cj",  # 请替换成你的真实API Key
+    "openai_api_key": "xxxxxxx",  # 请替换成你的真实API Key
     "temperature": 0.7
 }
 
