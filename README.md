@@ -36,7 +36,16 @@ crewai-uv/
 
 ## 快速开始
 
-### 方法一：Web界面（推荐）
+### 1. 安装环境:
+pip install uv
+uv venv .venv
+.\.venv\Scripts\activate
+uv pip install -r requirements.txt
+uv pip install langchain-openai
+
+### 2. 获取报告或交互式问答
+
+#### 方法一：Web界面（推荐）
 ```bash
 # 1. 安装依赖
 uv pip install streamlit matplotlib seaborn
@@ -47,7 +56,7 @@ uv run streamlit run web_qa.py
 # 3. 打开浏览器访问 http://localhost:8501
 ```
 
-### 方法二：命令行
+#### 方法二：命令行
 ```bash
 # 1. 安装依赖
 uv pip install -r requirements.txt
