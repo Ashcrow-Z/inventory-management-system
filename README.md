@@ -37,11 +37,11 @@ crewai-uv/
 ## 快速开始
 
 ### 1. 安装环境:
-pip install uv
-uv venv .venv
-.\.venv\Scripts\activate
-uv pip install -r requirements.txt
-uv pip install langchain-openai
+pip install uv\n
+uv venv .venv\n
+.\.venv\Scripts\activate\n
+uv pip install -r requirements.txt\n
+uv pip install langchain-openai\n
 
 ### 2. 获取报告或交互式问答
 
